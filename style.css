@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  background-color: #292729;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #201f21;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(134, 121, 121);
+  margin-bottom: 10;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  color: antiquewhite;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-box input:focus {
+  border-color: #4a90e2;
+}
+
+/*.input-box button {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-box button img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: transparent;
+}*/
+
+#message {
+  position: absolute;
+  bottom: -40px;
+  left: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+#message span {
+  font-weight: bold;
+}
